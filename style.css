@@ -69,32 +69,79 @@ body{
     margin-bottom: 100px;
     width: 1600px;
 }
-/* ========================================= */
-
+/* ====================image with side text===================== */
 .imgtext{
     background-color: #000033;
-    height: 620px;
+    height: 600px;
     width: 980px;
     margin: auto;
-    overflow: hidden;
+    display: flex;
+   
+   
     
 }
 .imgg{
     background-color: yellow;
-    height:620px;
-    width: 400px;
-    float: left;
+    height:600px;
+    width: 600px;
 
 }
 .textt{
     background-color: blueviolet;
-    height:600px ;
-    width: 350px;
+    height:400px ;
+    width: 380px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-right: 60px;
+   
 }
 
+.textt hr {
+    margin-left: 54px;
+    margin-right: 54px;
+    margin-top: -15px;
+}
+/* ====================image with side text invert===================== */
+.imgtext2{
+    background-color: #000033;
+    height: 600px;
+    width: 980px;
+    margin: auto;
+    display: flex;
+   
+   
+    
+}
+.imgg2{
+    background-color: gray;
+    height:400px ;
+    width: 380px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-right: 60px;
 
 
+}
+.textt2{
+    background-color: blueviolet;
+    height:600px;
+    width: 600px;
 
+   
+}
+
+.imgg2 hr {
+    margin-left: 54px;
+    margin-right: 54px;
+    margin-top: -15px;
+    
+}
 /* ===============Footer start================== */
 
 .footermain{
