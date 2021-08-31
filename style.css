@@ -81,13 +81,11 @@ body{
     
 }
 .imgg{
-    background-color: yellow;
     height:600px;
     width: 600px;
 
 }
 .textt{
-    background-color: blueviolet;
     height:400px ;
     width: 380px;
     color: white;
@@ -116,7 +114,6 @@ body{
     
 }
 .imgg2{
-    background-color: gray;
     height:400px ;
     width: 380px;
     color: white;
@@ -129,7 +126,6 @@ body{
 
 }
 .textt2{
-    background-color: blueviolet;
     height:600px;
     width: 600px;
 
@@ -142,6 +138,12 @@ body{
     margin-top: -15px;
     
 }
+.inputbar{
+    color: deepskyblue;
+    padding-top:20px;
+    padding-left: 40px;
+}
+
 /* ===============Footer start================== */
 
 .footermain{
@@ -167,14 +169,14 @@ body{
 .footermain li a:hover{
     color: yellow;
 }
-/* .icons{
+.icons{
     height: 100px;
     width: 300px;
-    position: absolute;
+    position: relative
     right: 22px;
     top: 300px;
     color: white;
-    font-family: comic sans ms; */
+    font-family: comic sans ms;
 }
 /* ================ Footer finished================== */
 
