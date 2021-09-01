@@ -11,7 +11,7 @@ body{
 
 .menubar{
     background-color:#000033;
-  
+
 }
 
 
@@ -150,13 +150,5 @@ body{
 .footermain li a:hover{
     color: yellow;
 }
-.icons{
-    height: 100px;
-    width: 300px;
-    position: relative
-    right: 22px;
-    top: 300px;
-    color: white;
-    font-family: comic sans ms;
-}
+
 /* ================ Footer finished================== */

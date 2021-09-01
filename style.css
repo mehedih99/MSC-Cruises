@@ -10,6 +10,9 @@ body{
 
 .menubar{
     background-color:#000033;
+    position: fixed;
+    top: 0;
+    width: 100%;
     
 }
 
@@ -140,22 +143,20 @@ body{
 }
 .inputbar{
     margin: auto;
-    background-color: skyblue;
+    background-color: rgb(237, 242, 243);
     width: 300px;
     padding-left: 5px;
-    height: 70px;
     text-align: center;
-    padding-top: 20px;
+    padding: 20px 0;
     border-radius: 20px;
     
 }
 .inlabel{
-    height: 40px;
+    padding: 20px;
     margin: 0px;
 
 }
 .inputbar input{
-    height: 30px;
     border-radius: 10px;
     font-size: 15px;
     
@@ -164,7 +165,13 @@ body{
 .ininput{
     padding-top: 10px;
 }
-
+.input1{
+	margin-top: 10px;
+	padding: 7px;
+}
+.input2{
+	padding: 5px;
+}
 /* ===============Footer start================== */
 
 .footermain{
@@ -193,11 +200,14 @@ body{
 .icons{
     height: 100px;
     width: 300px;
-    position: relative
-    right: 22px;
-    top: 300px;
     color: white;
+  
+}
+.icons p{
+    
     font-family: comic sans ms;
+    padding-bottom: 20px;
+    margin-top: -10px;
 }
 /* ================ Footer finished================== */
 
