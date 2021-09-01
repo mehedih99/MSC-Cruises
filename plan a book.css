@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+
+
+
+/* ============menu bar============ */
+
+.menubar{
+    background-color:#000033;
+    
+}
+
+
+.logo{
+    background-color: pink;
+    height: 100px;
+    width: 200px;
+    margin-left: 10px;
+   
+}
+.menudiv{
+    position: absolute;
+    top: 7px;
+    right: 30px;
+}
+
+.menuul{
+    overflow: hidden;
+
+}
+.menuul li{
+    list-style: none;
+    float: left;
+    
+}
+.menuli-a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    padding: 25px;
+    font-weight: bold;
+    
+}
+.logoimg{
+    padding-top:14px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+.menuli-a:hover {
+    background-color: violet;
+    border-radius: 20px
+}
+/* ========-====Menu bar Finished================ */
+
+
+
+
+
+/* ===============Footer start================== */
+
+.footermain{
+    background-color:#000033;
+    overflow: hidden;
+}
+.footermain div{
+    width: 17%;
+    float: left;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.footermain li{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footermain li a{
+    color: white;
+    text-decoration: none;
+}
+.footermain li a:hover{
+    color: yellow;
+}
+.icons{
+    height: 100px;
+    width: 300px;
+    position: relative
+    right: 22px;
+    top: 300px;
+    color: white;
+    font-family: comic sans ms;
+}
+/* ================ Footer finished================== */

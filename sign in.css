@@ -1,0 +1,162 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url(image/main-signin.jpg);
+    background-size: cover;
+}
+
+
+/* ============menu bar============ */
+
+.menubar{
+    background-color:#000033;
+  
+}
+
+
+.logo{
+    background-color: pink;
+    height: 100px;
+    width: 200px;
+    margin-left: 10px;
+   
+}
+.menudiv{
+    position: absolute;
+    top: 7px;
+    right: 30px;
+}
+
+.menuul{
+    overflow: hidden;
+
+}
+.menuul li{
+    list-style: none;
+    float: left;
+    
+}
+.menuli-a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    padding: 25px;
+    font-weight: bold;
+    
+}
+.logoimg{
+    padding-top:14px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+.menuli-a:hover {
+    background-color: violet;
+    border-radius: 20px
+}
+/* ========-====Menu bar Finished================ */
+
+
+.singinbox {
+    width: 320px;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    top: 35%;
+    left: 39%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -13%;
+    left: 107px;
+}
+
+.singinbox h1{
+    margin: 0px;
+    padding: 0 0 25px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.singinbox p{
+    margin: 0;
+    padding: 0px;
+    font-weight: bold;
+
+}
+.singinbox input{
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.singinbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px soli #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+.singinbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0D97C6;
+    color: #fff;
+    font-size: 18px;
+    border-radius:20px ;
+
+}
+.singinbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray ;
+
+}
+
+/* ===============Footer start================== */
+
+.footermain{
+    background-color:#000033;
+    overflow: hidden;
+    margin-top: 700px;
+}
+.footermain div{
+    width: 17%;
+    float: left;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.footermain li{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footermain li a{
+    color: white;
+    text-decoration: none;
+}
+.footermain li a:hover{
+    color: yellow;
+}
+.icons{
+    height: 100px;
+    width: 300px;
+    position: relative
+    right: 22px;
+    top: 300px;
+    color: white;
+    font-family: comic sans ms;
+}
+/* ================ Footer finished================== */
