@@ -55,6 +55,113 @@ body{
     border-radius: 20px
 }
 /* ========-====Menu bar Finished================ */
+/* ===============Main body start========== */
+
+
+
+.entry{
+    background-color: #eef0f1 ;
+    width: 980px;
+    height: 500px;
+    margin: auto;
+}
+.entry p{
+
+    margin: 0px 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.entry h1{
+    padding-top: 100px;
+    text-align: center;
+}
+.entry hr{
+    margin-left: 339px;
+    margin-right: 339px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+/* =============big image============ */
+.bigimg{
+    margin-bottom: 100px;
+    width: 1600px;
+}
+/* ====================image with side text===================== */
+.imgtext{
+    background-color: #000033;
+    height: 600px;
+    width: 980px;
+    margin: auto;
+    display: flex;
+   
+   
+    
+}
+.imgg{
+    height:600px;
+    width: 600px;
+
+}
+.textt{
+    height:400px ;
+    width: 380px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-right: 60px;
+   
+}
+
+.textt hr {
+    margin-left: 54px;
+    margin-right: 54px;
+    margin-top: -15px;
+}
+/* ====================image with side text invert===================== */
+.imgtext2{
+    background-color: #000033;
+    height: 600px;
+    width: 980px;
+    margin: auto;
+    display: flex;
+   
+   
+    
+}
+.imgg2{
+    height:400px ;
+    width: 380px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-right: 60px;
+
+
+}
+.textt2{
+    height:600px;
+    width: 600px;
+
+   
+}
+
+.imgg2 hr {
+    margin-left: 54px;
+    margin-right: 54px;
+    margin-top: -15px;
+    
+}
+.inputbar{
+    color: deepskyblue;
+    padding-top:20px;
+    padding-left: 40px;
+}
 
 
 
